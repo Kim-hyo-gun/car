@@ -1,0 +1,78 @@
+﻿@charset "utf-8";
+@import url(reset.css);
+
+body{font:12px arial; background:#fff url(../images/bg_line.png) repeat-x left 86px;}
+#wrapper, #foot {width:1200px; margin:0 auto; background-color:#f1f1f1;}
+
+/*header*/
+header {position:relative;}
+	header h1 {float:left; padding:18px 0 0 15px;}
+	
+	header .util {float:right; font-family:돋움; font-size:14px;}
+		header .util li{float:left; padding-top:8px;}
+		header .util li a {float:left; padding:0 15px;}
+		header .util li:nth-of-type(8) {padding-right:220px;}
+	
+	header form {position:absolute; top:5px; right:10px;}
+		header form input{ border-radius:10px; height:22px; padding:0 30px 0 10px;}
+		header form button {position:absolute; right:15px; top:2px; border:0; background:#fff;}
+		header form button i {}
+	
+	header .gnb{clear:both; font:bold 20px arial; position:absolute; right:0; top:30px;}
+		header .gnb li{float:left;}
+			header .gnb li a{padding:15px 30px; display:inline-block;}
+			header .gnb li:hover a{background:#258;}
+			header .gnb li.gnbr a {color:#666; padding:0 10px; position:relative; font-size:16px; line-height:57px;}
+			header .gnb li.gnbr a span {position:absolute; font-size:13px; left:45px; top:-13px;}
+			
+		
+	header .gnb2{clear:both; float:left; font:bold 25px 굴림; margin-top:-12px; width:100%; background-color:#bb162b;}
+		header .gnb2 li{float:left; background:#bb162b;}
+		header .gnb2 li:nth-of-type(1) a{height:29px;}
+		
+		header .gnb2 li a{padding:20px 60px 21px; display:inline-block; color:#fff;}
+		header .gnb2 li:hover a{background:#00f;}
+
+		header video {width:1200px;}
+
+/*section*/
+section {clear:both; text-align:center; padding-top:100px;}
+	section h2 {font-size:40px; color:red; font-family:궁서;}
+	section h3 {font-size:45px; padding:5px 0 20px;}
+	section h4 {font-size:20px; padding:0 20px 15px; color:#666; float:left; cursor:pointer;}
+	section h4:nth-of-type(1) {margin-left:500px;}
+	section h4.cho {color:red; text-decoration:underline; font-weight:bold;}
+		section .stonicV {width:1200px; height:315px; position:relative; top:80px; overflow:hidden;}
+		section .stonicTVC {clear:both; width:100%; position:absolute; left:320px;}
+		section .left {float:left;}
+		section .right {float:right;}
+	
+	section .pr {clear:both; padding-top:200px;}
+	section .pr img {float:left;}
+	
+	section .gallery {clear:both;  position:relative; background:#f1f1f1; height:900px; }
+		section .gallery h3 {padding:5px 0 40px;}
+		section .gallery iframe {float:left; padding:0 20px 30px ; background:#f1f1f1;}
+		section .gallery .carImg {position:absolute; right: 20px; top:495px; width:560px; height:315px; /*overflow:hidden;*/ overflow:hidden;}
+		section .gallery .carImg ul {width:3920px; position:absolute; left:0;}
+		section .gallery .carImg li {float:left; cursor:pointer;}
+
+
+/*footer*/
+footer {clear:both; background:#e4e5e6;padding:20px 20px;}
+	#foot { background:#e4e5e6;}
+		#foot .fb {float:left;}
+			#foot .fb li{float:left; padding:10px 0; }
+				#foot .fb li a {float:left; padding:0 10px;}
+			
+		#foot .icon {}
+			#foot .icon li{float:left; }
+				#foot .icon li a{padding:0 10px;}
+		
+		
+		#foot form {float:right;}
+		
+		#foot .fbb {clear:both; padding:10px 0 20px 10px; width:800px;}
+			#foot .fbb li{ float:left;}
+				#foot .fbb li span{padding:0 10px;}
+		
